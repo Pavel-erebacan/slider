@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 100%
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.slider{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 450px;
+	height: 300px;
+	border: 2px solid black;
+}
+.slider-line{
+	position: relative;
+	left: 0;
+	font-size: 0;
+	height: 290px;
+	width: 1800px;
+	display: flex;
+}
+.slider-line img{
+	width: 450px;
+	height: 290px;
+	margin:5px auto;}
+.navigation{
+	margin-top: 25px;
+	position: relative;
+	left: 47%;
+}
+.auto_play{
+	color: black;
+	content: "auto";
+	border-radius: 6px;
+	width: 45px;
+	height: 15px
+}
