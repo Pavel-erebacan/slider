@@ -21,8 +21,8 @@ function prew() {
     }
 };
 
-function go() {
-    setInterval(prew, 2000)
+function autoPlay() {
+    setInterval(prew, 3000)
 };
-go();
+
 //ju
